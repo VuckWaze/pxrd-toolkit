@@ -20,7 +20,7 @@ import scipy.constants as __physical_constants__
 
 
 # Default directories
-__data_dir__ = r'C:\Users\Master\OneDrive - Stockholm University\Data'
+__data_dir__ = r'%USERPROFILE%\Documents\PXRD'
 __cif_dir__= __data_dir__ + '\CIF-files'
 __pks_dir__ = __data_dir__ + '\PXRD Peak lists'
 __pxrd_dir__ = __data_dir__ + '\PXRD'
