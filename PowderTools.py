@@ -237,7 +237,7 @@ class __methods__():
     def draw_pattern(self):
         plt.figure()
         x,y = self.tt, self.I
-        self.line = __plot__(x,y)
+        self.line = __plot__(self)
         format_plot()
 
     def find_pks(self):
